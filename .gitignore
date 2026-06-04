@@ -1,4 +1,5 @@
 .idea
+.astro
 node_modules
 dist
 .env
