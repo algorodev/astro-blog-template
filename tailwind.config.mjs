@@ -5,6 +5,6 @@ export default {
     extend: {},
   },
   plugins: [
-    (await import('@tailwindcss/typography')).default,
+    require('@tailwindcss/typography'),
   ],
 }
