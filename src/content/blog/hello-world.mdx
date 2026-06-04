@@ -1,0 +1,42 @@
+---
+title: Hello World
+description: Welcome to my Astro blog — a fast, content-focused site built with content collections, MDX, and Tailwind CSS.
+pubDate: 2024-01-01
+tags: [astro, blog]
+draft: false
+---
+
+Welcome to your new Astro blog! This is a sample post to get you started.
+
+## What you get
+
+- **Content Collections** — type-safe frontmatter validation with Zod
+- **MDX** — use JSX components directly inside your Markdown posts
+- **Tailwind CSS** — utility-first styling with the typography plugin for prose
+- **RSS feed** — available at `/rss.xml`
+- **Sitemap** — auto-generated at `/sitemap-index.xml`
+- **Tag pages** — posts are filterable by tag at `/blog/tags/[tag]`
+- **Draft support** — set `draft: true` in frontmatter to hide a post from production
+
+## Writing posts
+
+Create a new `.mdx` file inside `src/content/blog/` with the required frontmatter fields:
+
+```md
+---
+title: My Post Title
+description: A short description for SEO and post cards.
+pubDate: 2024-06-01
+tags: [tag1, tag2]
+draft: false
+---
+
+Your content here...
+```
+
+## Next steps
+
+- Update `astro.config.mjs` with your real `site` URL
+- Edit `src/layouts/BaseLayout.astro` to change the site name and navigation
+- Replace this sample post with your own writing
+- Customize `tailwind.config.mjs` with your brand colors and fonts
